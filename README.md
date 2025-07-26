@@ -8,6 +8,8 @@ A simple machine learning project that predicts the insurance premium category â
 - Backend: FastAPI (for serving the model via API)  
 - Frontend: Streamlit (for input and displaying results)  
 - Input fields: Age, BMI, Income, Lifestyle risk, Occupation, City type, etc.
+## Demo 
+![Demo](assets/demo.gif)
 
 ## How it Works
 
