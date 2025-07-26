@@ -40,4 +40,4 @@ if st.button("Predict Premium Category"):
         else:
             st.error(f"API Error : {response.status_code} - {response.text}")
     except requests.exceptions.ConnectionError:
-        st.error("could not connect to fastAPI server. Make sure its running on port 8080")
+        st.error("could not connect to fastAPI server. Make sure its running on port 8000")
